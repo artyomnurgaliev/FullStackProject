@@ -1,0 +1,85 @@
+
+.wrapper {
+    width: 30%;
+    background-color: white;
+    margin: 4vh 5%;
+}
+
+.blocks {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search_block {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+
+.text_block {
+    width: 100%;
+    background-color: #008981;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    width: 60%;
+    height: 60%;
+    padding: 1vh 1% 5vh 1%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 12vh 5% 4vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.major_text {
+    padding: 2%;
+    margin: 4vh 5%;
+    border: calc(0.2vw + 0.2vh) solid white;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(4vw + 4vh);
+    font-family: 'Microsoft Yi Baiti';
+}
+
+.small_text {
+    margin: 2vh 7%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.5vw + 1.5vh);
+    font-family: 'Microsoft Yi Baiti';
+}
+
+
+.input_text {
+    padding: 2vh 1%;
+    color: black;
+    font-size: calc(1vw + 1vh);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10%;
+}
+
+.error {
+    color: red;
+}

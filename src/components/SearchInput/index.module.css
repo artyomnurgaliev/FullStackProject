@@ -1,0 +1,25 @@
+.input {
+    width: 30%;
+    height: 50%;
+    font-size: calc(3vmin);
+    padding: 0.1vh 0.1% 0.1vh 0.5%;
+    margin: 1vh 9%;
+    color: #4BB2AC;
+    border: calc(0.3vmin) solid #008981;
+    font-family: 'Noto Sans Tamil';
+    border-radius: calc(0.5vmin);
+}
+
+.input.error {
+    border: calc(0.5vmin) solid red;
+}
+
+.input:hover {
+    background-color: #c5c5c5;
+}
+
+input:focus {
+    outline: none;
+
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #FBD1DC
+}

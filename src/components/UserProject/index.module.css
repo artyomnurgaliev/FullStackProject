@@ -1,0 +1,29 @@
+.project{
+    border: black solid 1px;
+}
+
+.access_level{
+    width: 10%;
+    color: gray;
+    border: gray solid 1px;
+}
+
+.heading{
+    width: 80%;
+    padding: 1vh 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    width: 20%;
+    color: black;
+    font-size: calc(2vw + 2vh);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.description{
+    color: black;
+    font-size: calc(1vw + 1vh);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
